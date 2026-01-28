@@ -1,7 +1,7 @@
-kind: ConfigMap
-apiVersion: v1
-metadata:
-  name: '{{ .Chart.Name }}-html'
-immutable: false
-data:
-{{ (.Files.Glob "html/*").AsConfig | indent 2 }}
+# kind: ConfigMap
+# apiVersion: v1
+# metadata:
+#   name: '{{ .Chart.Name }}-html'
+# immutable: false
+# data:
+# {{ (.Files.Glob "html/*").AsConfig | indent 2 }}
