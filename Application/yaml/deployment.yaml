@@ -4,7 +4,7 @@ metadata:
   # Set your lab user name
   name: user14-hello-openshift
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       # Set your lab user name
